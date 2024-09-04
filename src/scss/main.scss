@@ -1,10 +1,4 @@
 @import './mixins';
-
-header {
-  @include flex-all-between;
-
-  @include small-desktop {
-    color: red;
-  }
-}
+@import './base';
+@import './globals';
 
